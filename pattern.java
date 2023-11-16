@@ -131,28 +131,28 @@ public class pattern{
             System.out.println();
         }
     }
-    // public void pattern11(int m){
-    //     for(int i=1;i<=m;i++){
-    //         for(int j=1;j<=(2*m)-1;j++){
-    //             if((i+j)>=(m+1) && (i+j)<2*m)
-    //             System.out.print("* ");
-    //             else
-    //             System.out.print("  ");
-    //         }
-    //         System.out.println();
-    //     }
-    // }
     public void pattern11(int m){
         for(int i=1;i<=m;i++){
-            for(int j=1;j<=m-i;j++){
-                System.out.print("  ");
-            }
-            for(int j=1;j<=m;j++){
+            for(int j=1;j<=(2*m)-1;j++){
+                if((i+j)>=(m+1) && (i+j)<2*m)
                 System.out.print("* ");
+                else
+                System.out.print("  ");
             }
             System.out.println();
         }
     }
+    // public void pattern11(int m){
+    //     for(int i=1;i<=m;i++){
+    //         for(int j=1;j<=m-i;j++){
+    //             System.out.print("  ");
+    //         }
+    //         for(int j=1;j<=m;j++){
+    //             System.out.print("* ");
+    //         }
+    //         System.out.println();
+    //     }
+    // }
     public void pattern12(int m){
         for(int i=1;i<=m;i++){
             for(int j=1;j<=m-i;j++){
