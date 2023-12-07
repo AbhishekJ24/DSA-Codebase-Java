@@ -20,6 +20,21 @@ public class NQueens_Backtracking {
         return true;
     }
 
+    // static int count=0;
+    // public static void nQueensCount(char ch[][], int row) {
+    //     if (row == ch.length) {
+    //         ++count;
+    //         return;
+    //     }
+    //     for (int col = 0; col < ch.length; col++) {
+    //         if (isSafe(ch, row, col)) {
+    //             ch[row][col] = 'Q';
+    //             nQueensCount(ch, row + 1);
+    //             ch[row][col] = 'X';
+    //         }
+    //     }
+    // }
+
     public static void nQueens(char ch[][], int row) {
         if (row == ch.length) {
             printBoard(ch);
@@ -45,7 +60,7 @@ public class NQueens_Backtracking {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 7;
         char ch[][] = new char[n][n];
         for (int i = 0; i < ch.length; i++) {
             for (int j = 0; j < ch.length; j++) {
@@ -53,5 +68,8 @@ public class NQueens_Backtracking {
             }
         }
         nQueens(ch, 0);
+        // nQueensCount(ch,0);
+        // System.out.println(count);
+    
     }
 }
