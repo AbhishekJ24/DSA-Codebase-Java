@@ -22,17 +22,17 @@ public class NQueens_Backtracking {
 
     // static int count=0;
     // public static void nQueensCount(char ch[][], int row) {
-    //     if (row == ch.length) {
-    //         ++count;
-    //         return;
-    //     }
-    //     for (int col = 0; col < ch.length; col++) {
-    //         if (isSafe(ch, row, col)) {
-    //             ch[row][col] = 'Q';
-    //             nQueensCount(ch, row + 1);
-    //             ch[row][col] = 'X';
-    //         }
-    //     }
+    // if (row == ch.length) {
+    // ++count;
+    // return;
+    // }
+    // for (int col = 0; col < ch.length; col++) {
+    // if (isSafe(ch, row, col)) {
+    // ch[row][col] = 'Q';
+    // nQueensCount(ch, row + 1);
+    // ch[row][col] = 'X';
+    // }
+    // }
     // }
 
     public static void nQueens(char ch[][], int row) {
@@ -70,6 +70,6 @@ public class NQueens_Backtracking {
         nQueens(ch, 0);
         // nQueensCount(ch,0);
         // System.out.println(count);
-    
+
     }
 }
