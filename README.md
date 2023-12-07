@@ -1,7 +1,9 @@
 # Java-DSA--Alpha-Plus-
+
 This repository includes different problems primarily based on DSA which I, Abhishek Joshi, am doing during my Alpha Plus Course by Apna College.
 
 Here's a brief list of topics that have been covered up till now:
+
 1. Flowcharts and Pseudocodes
 2. Variables and Data Types
 3. Operators
