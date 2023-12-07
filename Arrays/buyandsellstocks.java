@@ -1,3 +1,4 @@
+package Arrays;
 public class buyandsellstocks {
     public static int factorial(int number){
         int facto=1;

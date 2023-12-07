@@ -1,3 +1,4 @@
+package Arrays;
 public class prefixsubarraysum {
     public static void main(String[] args) {
         int arr[]={1,-2,5,3,-1,0,8,7,-3,0};

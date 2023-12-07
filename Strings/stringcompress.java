@@ -1,3 +1,4 @@
+package Strings;
 public class stringcompress {
     public static String compress(char[] chars) {
         StringBuilder st = new StringBuilder("");

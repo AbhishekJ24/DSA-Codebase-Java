@@ -1,3 +1,4 @@
+package Arrays;
 public class trappingrainwater {
     public static double trappedRainwater(int number[], double width) {
         int n = number.length;

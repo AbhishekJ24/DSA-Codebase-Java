@@ -1,3 +1,4 @@
+package Recursion;
 public class checksorted {
     public static boolean checkSortedOrNot(int a[], int i) {
         if (i == a.length - 1)

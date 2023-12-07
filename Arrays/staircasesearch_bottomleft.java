@@ -1,3 +1,4 @@
+package Arrays;
 public class staircasesearch_bottomleft {
     public static void search(int mat[][], int key) {
         int row = mat.length - 1;

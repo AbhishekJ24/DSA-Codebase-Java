@@ -1,3 +1,4 @@
+package Strings;
 public class shortestpath {
     public static double shortestPathDisp(String path) {
         double disp = 0;

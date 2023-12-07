@@ -1,3 +1,4 @@
+package Strings;
 public class uppercase {
     public static String conversion(String s) {
         String upper = "";

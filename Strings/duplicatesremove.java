@@ -1,3 +1,4 @@
+package Strings;
 public class duplicatesremove{
     public static String DuplicatesRemove(String s){
         String str="";
