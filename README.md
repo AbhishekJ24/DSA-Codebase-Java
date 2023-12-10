@@ -21,3 +21,6 @@ Here's a brief list of topics that have been covered up till now:
 15. Divide and Conquer
 16. Time and Space Complexity
 17. Backtracking
+18. ArrayLists
+19. 
+20. 
