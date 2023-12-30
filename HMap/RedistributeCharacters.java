@@ -22,3 +22,6 @@ public class RedistributeCharacters {
         System.out.println(makeEqual(word));
     }
 }
+
+// Although the problem can be solved using HashMap, but is solved using integer array for ease and becuase the Map wasn't working in 
+// the offline VS Code IDE
