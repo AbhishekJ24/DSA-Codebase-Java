@@ -87,7 +87,7 @@ public class LinkedLists {
         ll.addLast(12);
         ll.printLL();
 
-        ll.addMiddle(10,6);
+        // ll.addMiddle(10,6);
         ll.printLL();
     }
 }
