@@ -22,5 +22,5 @@ Here's a brief list of topics that have been covered up till now:
 16. Time and Space Complexity
 17. Backtracking
 18. ArrayLists
-19. 
+19. Linked Lists
 20. 
