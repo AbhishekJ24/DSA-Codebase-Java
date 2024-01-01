@@ -36,16 +36,16 @@ public class LinkedLists {
 
     }
 
-    // public void addMiddle(int data, int index) {
-    //     Node temp = head;
-    //     Node newNode = new Node(data);
-    //     for (int i = 1; i <= index; i++) {
-    //         temp = temp.next;
-    //     }
-    //     newNode.next = temp.next.next;
-    //     temp.next = newNode;
+    public void addMiddle(int data, int index) {
+        Node temp = head;
+        Node newNode = new Node(data);
+        for (int i = 1; i <= index - 1; i++) {
+            temp = temp.next;
+        }
+        newNode.next = temp.next;
+        temp.next = newNode;
 
-    // }
+    }
 
     public void printLL() {
         Node temp = head;
@@ -87,7 +87,7 @@ public class LinkedLists {
         ll.addLast(12);
         ll.printLL();
 
-        // ll.addMiddle(10,6);
+        ll.addMiddle(1000, 6);
         ll.printLL();
     }
 }
