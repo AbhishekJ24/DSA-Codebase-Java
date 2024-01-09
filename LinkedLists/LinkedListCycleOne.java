@@ -1,6 +1,6 @@
 package LinkedLists;
 
-public class LinkedListCycle {
+public class LinkedListCycleOne {
     class ListNode {
         int data;
         ListNode next;
