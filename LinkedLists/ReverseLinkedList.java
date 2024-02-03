@@ -63,7 +63,7 @@ public class ReverseLinkedList {
         ll.addLast(4);
         ll.addLast(5);
         ll.printLL();
-        head=ll.reverseList(head);
+        head = ll.reverseList(head);
         ll.printLL();
     }
 }
