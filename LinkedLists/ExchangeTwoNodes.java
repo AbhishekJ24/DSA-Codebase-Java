@@ -46,6 +46,7 @@ public class ExchangeTwoNodes {
             temp2=temp2.next;
         }
         
+        
     }
 
     public static void main(String[] args) {
