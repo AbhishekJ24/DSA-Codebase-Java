@@ -4,7 +4,7 @@ public class MergeSort {
     public static Node head;
     public static Node tail;
 
-    public class Node {
+    public static class Node {
         int data;
         Node next;
 
@@ -34,7 +34,7 @@ public class MergeSort {
         System.out.println("null");
     }
 
-    public static Node getMidNode() {
+    public static Node getMidNode(Node head) {
         Node slowptr = head;
         Node fastptr = head.next;
         while (fastptr != null && fastptr.next != null) {
@@ -45,8 +45,8 @@ public class MergeSort {
     }
 
     public static Node merge(Node left, Node right) {
-        Node mergedLL=new Node(-1);
-        Node temp = mergedLL.next;
+        Node mergedLL = new Node(-1);
+        Node temp = mergedLL;
         while (left != null && right != null) {
             if (left.data <= right.data) {
                 temp.next = left;
@@ -76,7 +76,7 @@ public class MergeSort {
             return head;
         }
 
-        Node midNode = getMidNode();
+        Node midNode = getMidNode(head);
 
         Node rightHead = midNode.next;
         midNode.next = null;
@@ -93,10 +93,8 @@ public class MergeSort {
         ll.addLast(5);
         ll.addLast(1);
         ll.addLast(0);
-        ll.addLast(2);
-        ll.addLast(8);
         ll.printLL();
-        ll.head = ll.mergeSort(ll.head);
+        head = ll.mergeSort(head);
         ll.printLL();
     }
 }
