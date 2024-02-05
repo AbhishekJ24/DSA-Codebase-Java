@@ -51,36 +51,37 @@ public class ExchangeTwoNodes {
         temp.next = newNode;
 
     }
-    public static ListNode removeMiddle(ListNode head, int index){
-        ListNode temp=head;
-        for(int i=0;i<=index-2;i++){
-            temp=temp.next;
+
+    public static ListNode removeMiddle(ListNode head, int index) {
+        ListNode temp = head;
+        for (int i = 0; i <= index - 2; i++) {
+            temp = temp.next;
         }
-        temp.next=temp.next.next;
+        temp.next = temp.next.next;
         return head;
     }
 
     public static ListNode exhangeNodes(int a, int b) {
-        ListNode temp=head;
-        int i=0;
-        int j=0;
-        while(temp.next!=null){
-            if(temp.next.val==a)
-            break;
+        ListNode temp = head;
+        int i = 0;
+        int j = 0;
+        while (temp.next != null) {
+            if (temp.next.val == a)
+                break;
             ++i;
-            temp=temp.next;
+            temp = temp.next;
         }
-        temp=head;
-        while(temp.next!=null){
-            if(temp.next.val==b)
-            break;
+        temp = head;
+        while (temp.next != null) {
+            if (temp.next.val == b)
+                break;
             ++j;
-            temp=temp.next;
+            temp = temp.next;
         }
-        removeMiddle(head,i+1);
-        addMiddle(b,i+1);
-        removeMiddle(head,j+1);
-        addMiddle(a,j+1);
+        removeMiddle(head, i + 1);
+        addMiddle(b, i + 1);
+        removeMiddle(head, j + 1);
+        addMiddle(a, j + 1);
         return head;
     }
 
@@ -91,7 +92,7 @@ public class ExchangeTwoNodes {
         ll.addLast(3);
         ll.addLast(4);
         ll.addLast(5);
-        head=exhangeNodes(2, 4);
+        head = exhangeNodes(2, 4);
         ll.printLL();
     }
 }
