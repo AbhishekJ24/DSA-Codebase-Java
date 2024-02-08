@@ -21,7 +21,9 @@ class MinStack {
         return st.get(st.size() - 1);
     }
 
+    @SuppressWarnings("unchecked")
     public int getMin() {
+        @SuppressWarnings("rawtypes")
         ArrayList st1 = (ArrayList) st.clone();
         Collections.sort(st1);
         return (int) st1.get(0);
