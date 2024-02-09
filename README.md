@@ -23,9 +23,7 @@ Here's a brief list of topics that have been covered up till now:
 17. Backtracking
 18. ArrayLists
 19. Linked Lists
-20. Dynamic Programming
+20. Stacks
 21. HashMaps
-22. Greedy Algorithms
-23. 
-24. 
-25. 
+23. Greedy Algorithms
+24. Dynamic Programming
