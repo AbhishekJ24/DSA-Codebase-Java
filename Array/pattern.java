@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 import java.util.Scanner;
 public class pattern{
     public void pattern1(int m){

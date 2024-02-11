@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 public class TwoSumSorted{
     public static int[] twoSum(int[] numbers, int target) {
         int lp=0;

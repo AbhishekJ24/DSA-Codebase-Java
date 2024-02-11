@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class diiferencebetweenzerosandonesincolumn {
     public static int[][] onesMinusZeros(int[][] grid) {

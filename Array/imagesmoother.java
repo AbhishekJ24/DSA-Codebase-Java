@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class imagesmoother {
     public int[][] imageSmoother(int[][] img) {

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class maxprodoftwoelementsinarray {
     public static int maxProduct(int[] nums) {

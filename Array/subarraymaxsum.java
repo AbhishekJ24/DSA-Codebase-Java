@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 public class subarraymaxsum {
     public static void main(String[] args) {
         int arr[] = { 1, -10, 2, 0, 9, 3 };

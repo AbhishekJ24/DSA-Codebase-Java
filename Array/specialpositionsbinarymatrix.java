@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class specialpositionsbinarymatrix{
     public static boolean rowCheck(int[][] mat,int x, int y){

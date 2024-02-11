@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class trappingrainwater {
     public static double trappedRainwater(int number[], double width) {

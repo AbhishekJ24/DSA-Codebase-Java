@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class freqmorethan25 {
         public static int findSpecialInteger(int[] arr) {

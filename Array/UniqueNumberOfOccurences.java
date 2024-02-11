@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 public class UniqueNumberOfOccurences {
     public static boolean uniqueOccurrences(int[] arr) {
