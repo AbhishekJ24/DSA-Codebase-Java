@@ -2,7 +2,6 @@
  * when it becomes less than or equal to right
  * The updation of that takes place like this:
  * right = right & (right - 1)
- * 
  */
 
 public class AndOfNumbersInARange{
