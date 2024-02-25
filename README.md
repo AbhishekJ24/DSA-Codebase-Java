@@ -27,3 +27,4 @@ Here's a brief list of topics that have been covered up till now:
 21. HashMaps
 23. Greedy Algorithms
 24. Dynamic Programming
+25. Math
