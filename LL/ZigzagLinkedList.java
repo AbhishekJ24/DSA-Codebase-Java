@@ -1,4 +1,4 @@
-package LinkedLists;
+package LL;
 public class ZigzagLinkedList{
     public class ListNode {
         int val;

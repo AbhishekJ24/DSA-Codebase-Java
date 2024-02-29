@@ -1,5 +1,4 @@
-package LinkedLists;
-
+package LL;
 import java.util.ArrayList;
 import java.util.Collections;
 

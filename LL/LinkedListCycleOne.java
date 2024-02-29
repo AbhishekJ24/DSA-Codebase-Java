@@ -1,4 +1,4 @@
-package LinkedLists;
+package LL;
 
 public class LinkedListCycleOne {
     class ListNode {

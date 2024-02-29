@@ -1,4 +1,4 @@
-package LinkedLists;
+package LL;
 
 public class RemoveNthNodeFromEnd {
     public class ListNode {
