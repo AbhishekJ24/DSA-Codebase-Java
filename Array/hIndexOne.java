@@ -1,5 +1,7 @@
 package Array;
+
 import java.util.Arrays;
+
 public class hIndexOne {
     public static int hIndex(int[] citations) {
         Arrays.sort(citations);
@@ -9,7 +11,8 @@ public class hIndexOne {
         }
         return 0;
     }
+
     public static void main(String[] args) {
-        System.out.println(hIndex(new int[]{1,0,3,5,6,2}));
+        System.out.println(hIndex(new int[] { 1, 0, 3, 5, 6, 2 }));
     }
 }
