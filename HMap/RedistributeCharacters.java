@@ -1,3 +1,4 @@
+package HMap;
 public class RedistributeCharacters {
     public static boolean makeEqual(String[] words) {
         int[] counts = new int[26];
