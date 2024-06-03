@@ -1,5 +1,3 @@
-package Backtracking;
-
 public class GridWays_Backtracking {
     public static int findGridWays(int n,int m,int i,int j){
         if(i==n-1 && j==m-1){

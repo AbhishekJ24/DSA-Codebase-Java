@@ -1,5 +1,3 @@
-// package Backtracking;
-
 // public class Sudoku_Backtracking {
 //     public static boolean isSafe(int sudoku[][], int row, int col, int digit_place) {
 //         // row

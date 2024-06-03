@@ -1,5 +1,3 @@
-package Backtracking;
-
 public class Permutations_Backtracking {
     public static void perm(String str, String ans) {
         if (str.length() == 0) {

@@ -1,5 +1,3 @@
-package Backtracking;
-
 public class NQueens_Backtracking {
     public static boolean isSafe(char ch[][], int row, int col) {
         // vertically upwards

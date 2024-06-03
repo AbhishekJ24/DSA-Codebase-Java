@@ -1,5 +1,3 @@
-package Backtracking;
-
 public class Subsets_Backtracking {
     public static void findSubsets(String str, int i, String ans) {
         if (i == str.length()) {
